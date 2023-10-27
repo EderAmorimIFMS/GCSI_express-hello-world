@@ -1,0 +1,28 @@
+pp.get('/tico', (req, res) => {
+  console.log("Teco")
+  res.send('Teco')
+})
+
+const pokemons = [
+    {
+        "first: "Pikachu", 
+        "second": "Butterfree", 
+        "third": "Pidgeot", 
+        "fourth": "Bulbasaur", 
+        "fifth": "Charizard", 
+        "sixth": "Squirtle", 
+        "seventh": "Kingler", 
+        "eighth": "Primeape",
+        "ninth": "Primeape",
+        "tenth"; "Muk"
+    }
+]
+app.get('//pokemons', (req, res) => {
+  console.log(pokemons)
+  res.json(pokemons)
+})
+
+app.get('/series', (req, res) => {
+  console.log("Just got a request!")
+  res.send('Yo!')
+})
